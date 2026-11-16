@@ -16,10 +16,11 @@
 
 | Пакет ИСР | Результат I0 | Где смотреть |
 | --- | --- | --- |
-| A1 — анализ бизнес-требований и ограничений (30 ч) | Роли, правила, критерии приёмки, вопросы заказчику | `docs/requirements/` |
+| A1 — анализ бизнес-требований и ограничений (30 ч) | Роли, правила бронирования и допустимости | `docs/requirements/` |
 | A2 — проектирование архитектуры (15 ч) | Проектирование API, защита от двойной брони, архитектурные и проектные диаграммы | `docs/architecture/`, `docs/diagrams/` |
-| M1 — планирование и мониторинг (10 ч) | Бэклог итерации | `docs/process/iteration-backlog.md` |
-| M2 — риски и коммуникации (5 ч) | Реестр рисков, сценарий демо | `docs/process/` |
+
+> Результаты пакетов M1 (планирование и мониторинг) и M2 (риски и коммуникации)
+> содержатся в документе планирования итерации и здесь не дублируются.
 
 ## Структура
 
@@ -27,29 +28,22 @@
 parking-project/
 ├── README.md
 └── docs/
-    ├── requirements/            # A1 — правила ядра и критерии приёмки
+    ├── requirements/            # A1 — правила ядра
     │   ├── roles-and-permissions.md
     │   ├── booking-rules.md
-    │   ├── admissibility-rules.md
-    │   ├── acceptance-criteria.md
-    │   ├── open-questions.md
-    │   └── glossary.md
+    │   └── admissibility-rules.md
     ├── architecture/            # A2 — текстовые проектные артефакты
     │   ├── api-design.md
     │   └── double-booking-protection.md
-    ├── diagrams/                # A2 — архитектурные и проектные диаграммы (.drawio)
-    │   ├── Use Case диаграмма.drawio
-    │   ├── Activity бронирование места.drawio
-    │   ├── Activity выдача доступа к парковке.drawio
-    │   ├── State жизненный цикл бронирования.drawio
-    │   ├── Sequence создание бронирования.drawio
-    │   ├── Sequence аутентификация.drawio
-    │   ├── ER-диаграмма.drawio
-    │   └── Развертывание.drawio
-    └── process/                 # M1, M2 — управление итерацией
-        ├── iteration-backlog.md
-        ├── risks.md
-        └── demo-and-retro.md
+    └── diagrams/                # A2 — архитектурные и проектные диаграммы (.drawio)
+        ├── Use Case диаграмма.drawio
+        ├── Activity бронирование места.drawio
+        ├── Activity выдача доступа к парковке.drawio
+        ├── State жизненный цикл бронирования.drawio
+        ├── Sequence создание бронирования.drawio
+        ├── Sequence аутентификация.drawio
+        ├── ER-диаграмма.drawio
+        └── Развертывание.drawio
 ```
 
 ## Отобранные истории (ядро, ID-01–ID-10)
@@ -68,7 +62,7 @@ parking-project/
 | ID-10 | Профиль транспортных средств и габариты | Must | 5 | B3, F1 |
 
 > Нумерация `ID-XX` соответствует бэклогу продукта. В Story Map нумерация другая
-> (`US-XX`); соответствие приведено в `docs/requirements/acceptance-criteria.md`.
+> (`US-XX`).
 
 ## Источники
 

@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="uKpvBEVLhO3zX0vQnKjF">
+    <mxGraphModel dx="936" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Пользователь" vertex="1">
+          <mxGeometry height="590" width="100" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ParkingPage" vertex="1">
+          <mxGeometry height="590" width="100" x="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-9" parent="YbnSc6-L6K2cKkb2xOsb-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="490" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ReservationController" vertex="1">
+          <mxGeometry height="590" width="120" x="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-11" parent="YbnSc6-L6K2cKkb2xOsb-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="55" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ReservationService" vertex="1">
+          <mxGeometry height="590" width="110" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-12" parent="YbnSc6-L6K2cKkb2xOsb-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="50" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="VehicleRepository" vertex="1">
+          <mxGeometry height="590" width="100" x="530" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-14" parent="YbnSc6-L6K2cKkb2xOsb-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ParkingRepository" vertex="1">
+          <mxGeometry height="590" width="110" x="660" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-17" parent="YbnSc6-L6K2cKkb2xOsb-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="ReservationRepository" vertex="1">
+          <mxGeometry height="590" width="130" x="800" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-24" parent="YbnSc6-L6K2cKkb2xOsb-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="60" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="YbnSc6-L6K2cKkb2xOsb-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;выбирает место,&amp;nbsp;&lt;br&gt;авто и период&lt;/font&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="60" y="80" as="sourcePoint" />
+            <mxPoint x="170" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;POST &lt;br&gt;/api/reservations&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="195" y="120" as="sourcePoint" />
+            <mxPoint x="315" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;createReservation&lt;br&gt;(user, request)&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="325" y="140" as="sourcePoint" />
+            <mxPoint x="450" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Найти активный&lt;br&gt;автомобиль&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="575" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Vehicle&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="200" as="sourcePoint" />
+            <mxPoint x="460" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Найти место,&amp;nbsp;уровень, парковку&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="229.55" />
+            </Array>
+            <mxPoint x="460" y="229.55" as="sourcePoint" />
+            <mxPoint x="710" y="229.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;ParkingSpot + ParkingLot&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="260" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Проверка доступа к парковке&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="460" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Проверка рабочего времени парковки&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="460" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Проверка габаритов автомобиля&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="460" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Проверить пересекающиеся RESERVED-брони&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="360" />
+            </Array>
+            <mxPoint x="460" y="360" as="sourcePoint" />
+            <mxPoint x="860" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Конфликтов нет&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="400" as="sourcePoint" />
+            <mxPoint x="460" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;save(Reservation, RESERVED)&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="430" />
+            </Array>
+            <mxPoint x="460" y="430" as="sourcePoint" />
+            <mxPoint x="864.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;ReservationResponse&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="470" />
+            </Array>
+            <mxPoint x="864.5" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="YbnSc6-L6K2cKkb2xOsb-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Созданная бронь&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="449.9999999999999" y="490" as="sourcePoint" />
+            <mxPoint x="330" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="YbnSc6-L6K2cKkb2xOsb-9" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;201 Created&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314.9999999999999" y="520" as="sourcePoint" />
+            <mxPoint x="200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YbnSc6-L6K2cKkb2xOsb-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Бронь &lt;br&gt;в интерфейсе&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="540" as="sourcePoint" />
+            <mxPoint x="60.083333333333314" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
